@@ -13,5 +13,5 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
   api.use('angular:angular@1.3.15',['client']);
-  api.addFiles('angular-inview/angular-inview.js');
+  api.addFiles('angular-inview/angular-inview.js',['client']);
 });

@@ -1,6 +1,6 @@
 Package.describe({
   name: 'planettraining:angular-inview',
-  version: '1.5.0-1',
+  version: '1.5.0_2',
 
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/planet-training/meteor-angular-inview.git',
@@ -12,6 +12,6 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
-  api.use('angular:angular@1.3.15',['client']);
-  api.addFiles('angular-inview/angular-inview.js',['client']);
+  api.use('angular:angular@1.4.0',['client']);
+  api.addFiles('bower_components/angular-inview/angular-inview.js',['client']);
 });
